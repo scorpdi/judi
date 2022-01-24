@@ -1,8 +1,4 @@
----
-title: one
----
-
-# one
+# 算法记录
 dsfdsdf
 
 ## 这个是测试

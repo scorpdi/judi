@@ -224,3 +224,9 @@ user.save!
 # 如果内存比较小的话建议修改配置文件
 unicorn['worker_processes'] = 1  #默认为2,1不能在线创建文件或修改
 ```
+
+## 关于升级gitlab
+
+> gitlab 的升级需要逐级升，升级路线可以[参考官网的引导路线](https://docs.gitlab.com/ee/update/index.html#upgrade-paths)。
+> `注：postgresql使用中，gitlab13之后建议postgreqsl数据库版本大于等一11版本。`
+> 
