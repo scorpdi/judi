@@ -15,6 +15,14 @@ module.exports = {
       ],
       '/note/':[
         {
+          title: "计算机网络",
+          collapsable: false,
+          path:'/note/network',
+          children: [
+            '/note/network/UDP'
+          ],
+        },
+        {
           title: "部署",
           collapsable: false,
           path:'/note/deploy',
@@ -43,5 +51,6 @@ module.exports = {
         }
       ],
     }
-  }
+  },
+  plugins: ['@vuepress/back-to-top']
 }

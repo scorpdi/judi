@@ -2,6 +2,6 @@
 title: 笔记
 ---
 
-# 介绍
+# 前端开发思维导图
 
-> fo 哈哈哈
+<img :src="$withBase('/images/what-is-fe.png')" alt="foo">
