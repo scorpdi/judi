@@ -15,11 +15,12 @@ module.exports = {
       ],
       '/note/':[
         {
-          title: "计算机网络",
+          title: "计算机网络相关",
           collapsable: false,
           path:'/note/network',
           children: [
-            '/note/network/UDP'
+            '/note/network/UDP&TCP',
+            '/note/network/http&https'
           ],
         },
         {
