@@ -1,7 +1,7 @@
 module.exports = {
   base:'/docs/',
-  title: 'Z_di',
-  description: 'Z_di 个人文档、笔记归纳记录',
+  title: 'Scorp',
+  description: '个人文档、笔记归纳记录',
   themeConfig: {
     sidebar: 'auto',
     nav: [
