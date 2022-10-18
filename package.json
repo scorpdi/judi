@@ -4,7 +4,8 @@
   "description": "judi的个人博客",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "start": "cd docs/.vuepress/dist && anywhere -s 3001"
   },
   "main": "index.js",
   "author": "Z_di",

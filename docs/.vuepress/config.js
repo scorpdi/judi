@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/docs/',
+  base: '/',
   title: 'Scorp',
   description: '个人文档、笔记归纳记录',
   themeConfig: {
