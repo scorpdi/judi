@@ -8,8 +8,10 @@ RUN mkdir -p /home/Docs
 
 WORKDIR /home/Docs
 
-COPY ./docs/.vuepress/dist /home/Docs
+COPY . /home/Docs
+
+RUN npm install --registry=https://registry.npm.taobao.org && export NODE_OPTIONS=--openssl-legacy-provider && npm run docs:build
 
 FROM nginx
 
-COPY --from=builder /home/Docs /usr/share/nginx/html
+COPY --from=builder /home/Docs/docs/.vuepress/dist /usr/share/nginx/html
