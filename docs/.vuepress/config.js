@@ -34,7 +34,8 @@ module.exports = {
           path: '/note/deploy',
           children: [
             '/note/deploy/gitlab',
-            '/note/deploy/docker'
+            '/note/deploy/docker',
+            '/note/deploy/nodebb'
           ],
         },
         {
