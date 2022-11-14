@@ -1,12 +1,12 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: /logo.png
 heroText: Scorp
 tagline: 个人文档归纳收集
 actionText: 开始阅读 →
 actionLink: /guide/
 ---
-<div class="features">
+<!-- <div class="features">
   <div class="feature">
     <h2>Simplicity First</h2>
     <p>Minimal setup with markdown-centered project structure helps you focus on writing.</p>
@@ -19,7 +19,7 @@ actionLink: /guide/
     <h2>Performant</h2>
     <p>VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.</p>
   </div>
-</div>
+</div> -->
 
 ::: slot footer
 [浙ICP备2021033705号-2](https://beian.miit.gov.cn)
