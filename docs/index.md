@@ -2,7 +2,7 @@
 layout: home
 
 title: Scorp
-titleTemplate: Docs && Note
+titleTemplate: Docs && Notes
 
 hero:
   name: Scorp

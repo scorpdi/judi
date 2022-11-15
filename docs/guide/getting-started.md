@@ -1,9 +1,7 @@
-# 为什么 Getting Started
+# 介绍
 
-> 说明：sss
+> 个人技术学习笔记记录，博客分享
 
-## 第九十九地方 
-十大建设
+## 关于文档使用教程
 
-## 大家是否快乐
-sasd
+> 使用[Vuepress](https://vuepress.vuejs.org/zh/)编写文档

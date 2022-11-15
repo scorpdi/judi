@@ -1,13 +1,13 @@
 
 export default {
   title: "Scorp",
-  description: "Just playing around.",
+  description: "Docs && notes",
 
   lastUpdated: true,
   cleanUrls: 'without-subfolders',
 
   head: [
-    ['link', { rel: 'icon', href: '/public/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#3c8772' }]
   ],
 
@@ -31,7 +31,7 @@ export default {
         text: 'Guide',
         collapsible: true,
         items: [
-          { text: 'Getting Started', link: '/guide/getting-started' },
+          { text: '说明', link: '/guide/getting-started' },
         ]
       }]
     },
@@ -44,6 +44,13 @@ export default {
 
 function sidebarNotes() {
   return [
+    {
+      text: "记录",
+      collapsible: true,
+      items:[
+        { text: '思维导图', link: '/notes/index' }
+      ]
+    },
     {
       text: "node",
       collapsible: true,
