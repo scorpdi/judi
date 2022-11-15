@@ -2,8 +2,6 @@ FROM node as builder
 
 env project_env production
 
-RUN npm install -g anywhere
-
 RUN mkdir -p /home/Docs
 
 WORKDIR /home/Docs
