@@ -8,7 +8,12 @@ WORKDIR /home/Docs
 
 COPY . /home/Docs
 
-RUN npm install --registry=https://registry.npm.taobao.org && export NODE_OPTIONS=--openssl-legacy-provider && npm run docs:build
+# linux需要安装esbuild补丁
+RUN npm install esbuild-linux-64 --registry=https://registry.npm.taobao.org
+
+RUN npm install --registry=https://registry.npm.taobao.org
+
+RUN npm run docs:build
 
 FROM nginx
 
