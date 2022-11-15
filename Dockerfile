@@ -14,4 +14,4 @@ RUN npm install --registry=https://registry.npm.taobao.org && export NODE_OPTION
 
 FROM nginx
 
-COPY --from=builder /home/Docs/docs/.vuepress/dist /usr/share/nginx/html
+COPY --from=builder /home/Docs/docs/.vitepress/dist /usr/share/nginx/html
