@@ -22,7 +22,8 @@ export default {
     siteTitle: 'Scorp Docs',
 
     nav: [
-      { text: '笔记', link: '/notes/deploy/docker', activeMatch: '/notes/' }
+      { text: '笔记', link: '/notes/deploy/docker', activeMatch: '/notes/' },
+      { text: 'TypeScript', link: '/study/typescript/ts-tutorial', activeMatch: '/study/' }
     ],
 
     sidebar: {
@@ -33,12 +34,34 @@ export default {
         items: [
           { text: '说明', link: '/guide/getting-started' },
         ]
+      }],
+      '/study/':[{
+        text: 'TypeScript',
+        collapsible: true,
+        items: [
+          { text: '介绍', link: '/study/typescript/ts-ts-tutorial' },
+          { text: '安装', link:'/study/typescript/ts-install'},
+          { text: '基础语法', link:'/study/typescript/ts-basic-syntax'},
+          { text: '基础类型', link:'/study/typescript/ts-type'}
+        ]
       }]
     },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/scorpdi/judi' }
-    ]
+    ],
+
+
+
+    footer: {
+      message: '<a href="https://beian.miit.gov.cn/">浙ICP备2021033705号-2</a>'
+    },
+
+    // algolia: {
+    //   appId: '8J64VVRP8K',
+    //   apiKey: 'a18e2f4cc5665f6602c5631fd868adfd',
+    //   indexName: 'vitepress'
+    // },
   },
 };
 
@@ -47,8 +70,15 @@ function sidebarNotes() {
     {
       text: "记录",
       collapsible: true,
-      items:[
+      items: [
         { text: '思维导图', link: '/notes/index' }
+      ]
+    },
+    {
+      text: "javascript",
+      collapsible: true,
+      items: [
+        { text: '设计模式', link: '/notes/javascript/design-mode' }
       ]
     },
     {
