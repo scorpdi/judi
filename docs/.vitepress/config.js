@@ -33,6 +33,7 @@ export default {
         collapsible: true,
         items: [
           { text: '说明', link: '/guide/getting-started' },
+          { text: '注释风格记录', link: '/guide/annotation' }
         ]
       }],
       '/study/':[{
@@ -65,6 +66,13 @@ export default {
   },
 };
 
+/** 
+ *
+ * @func
+ * @desc 笔记懒配置
+ * @author zhangdi 
+ * @date 2022-12-12 09:12:39 
+**/
 function sidebarNotes() {
   return [
     {
