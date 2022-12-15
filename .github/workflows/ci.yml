@@ -16,7 +16,7 @@ jobs:
     - name: Build
       uses: actions/setup-node@master
     - run: npm install # 安装第三方包
-    - run: npm run build # 打包
+    - run: npm run docs:build # 打包
     - run: tar -zcvf release.tgz dist
     # 把dist等文件，打包压缩为release.tgz
 
